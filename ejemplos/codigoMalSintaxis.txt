@@ -1,0 +1,9 @@
+hola
+evento < ingresar.
+siParaTodo(evento[-] << Z){
+	mostrar(cerrado).
+}
+siNo{
+	mostrar(enAnalisis)
+}
+chau

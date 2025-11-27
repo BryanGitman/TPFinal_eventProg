@@ -1,0 +1,23 @@
+hola.
+evento < ingresar.
+mostrar(ELEVENTOES).
+mostrar(evento).
+evento[1] < Z.
+mostrar(PRIMERSUBEVENTOTERMINADO).
+mostrar(evento).
+evento[2] < Z.
+mostrar(SEGUNDOSUBEVENTOTERMINADO).
+mostrar(evento).
+siParaTodo(Z ? evento[-]) {
+    mostrar(YAESTANTODOSTERMINADOS).
+    mostrar(cerrado).
+}
+siNo {
+    mostrar(FALTATODAVIA).
+    mostrar(enAnalisis).
+    evento < ZZZZZZZZZZ.
+    mostrar(AHORASI).
+    mostrar(evento).
+    mostrar(cerrado).
+}
+chau.
