@@ -1,0 +1,34 @@
+# Ignore C source files (note: this will ignore ALL .c files)
+*.c
+
+# Ignore compiled executables and common build artifacts
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore generated parser/scanner files
+lex.yy.c
+parser.tab.c
+parser.tab.h
+
+# Ignore parser/scanner directories (if present)
+parser/
+scanner/
+
+# Ignore parser and scanner files with no extension (repo root)
+/parser
+/scanner
+
+# Other temporary or build files
+*.log
+*.tmp
+*.swp
+
+# Ignore build and bin folders
+build/
+bin/
+
+# Keep local IDE/editor settings
+.vscode/
+.idea/
